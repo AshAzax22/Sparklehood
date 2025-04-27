@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  color: black;
+  background-color: white;
+  border-radius: 6px;
+  padding: 16px;
+  width: 100%;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #eee;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.toggleIcon {
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.toggleIcon:hover {
+  cursor: pointer;
+  background-color: #efefff;
+}
+
+.severity {
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.high {
+  background-color: #fec0c0;
+  color: red;
+}
+
+.medium {
+  background-color: #fff3cd;
+  color: orange;
+}
+
+.low {
+  background-color: #d1e7dd;
+  color: green;
+}
+
+.description {
+  font-size: 14px;
+  color: #919191;
+}
