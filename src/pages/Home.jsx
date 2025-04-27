@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "../css/home.module.css";
-import Card from "../components/card";
+import Card from "../components/Card";
 const Home = () => {
   const [formtoggle, setFormToggle] = useState(false);
   const [filter, setFilter] = useState("all");
