@@ -13,7 +13,7 @@ This project is a web application for reporting, filtering, and sorting AI safet
 
 ## Access
 
-You can view the project deployed live at:
+You can view the project deployed live at: https://sparklehood-agkd.vercel.app/
 
 ## Installation
 
